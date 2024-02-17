@@ -1,0 +1,66 @@
+.newsletter_content {
+    background-image: url(../../../public/wire_group.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-color: #385182;
+    padding: 3rem 25rem;
+    border-radius: 18px;
+}
+
+.newsletter_content h2 {
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 1.3rem;
+}
+
+.newsletter_content span {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter_content p {
+    color: #fff;
+    font-size: 16px;
+    margin: 0.8rem 0 1.8rem;
+}
+
+.newsletter_content input {
+    color: #fff;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #8f9db8;
+    background-color: #445b89;
+}
+
+.newsletter_content input::placeholder {
+    color: #fff;
+}
+
+
+.subscribe_btn {
+    border: 1px solid #032342;
+    color: #385182;
+    background-color: white;
+    border-radius: 12px;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+    margin-left: 12px;
+}
+
+.subscribe_btn:hover {
+    background: #6285ca;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .subscribe_btn {
+        margin: 0 15px 0 0;
+        padding: 8px 20px;
+    }
+}

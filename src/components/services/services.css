@@ -1,0 +1,48 @@
+#services{
+    background-color: #f5f6f9;
+}
+.card{
+    transition: 0.3s;
+    overflow: hidden;
+    /* border-radius: 50%; */
+}
+.s_title span,
+.card span{
+    color: #032342;
+}
+.s_title h2{
+    font-size: 45px;
+    color: #032342;
+}
+.card p{
+    font-size: 20px;
+    color: #888888;
+}
+.peginetion i{
+    color: #fff;
+}
+.card:hover{
+    background-color: #385182;
+    border-radius: 50%;
+}
+.card:hover .peginetion{
+    background-color: #fff;
+}
+.card:hover .peginetion i{
+    color: #385182;
+}
+.card:hover h2,
+.card:hover p{
+    color: #fff;
+}
+.card:hover img{
+    border-radius: 100% 0% 50% 50% / 0% 100% 0% 100%;
+}
+.peginetion:hover{
+    cursor: pointer;
+}
+.srvs_left span,
+.srvs_right span{
+    font-size: 20px;
+    color: #888888;
+}

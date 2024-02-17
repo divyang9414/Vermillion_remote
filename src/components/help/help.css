@@ -1,0 +1,122 @@
+#help{
+    background-color: #f5f6f9;
+}
+.help_title {
+    color: #6285ca;
+}
+
+.help_headline {
+    font-size: 40px;
+    color: #032342;
+}
+
+.help_headline_mini {
+    font-size: 20px;
+    color: #032342;
+}
+
+.hlp_lft {
+    padding-top: 60px;
+    padding-right: 120px;
+}
+
+.hlp_lft p {
+    font-size: 18px;
+    color: #888888;
+}
+
+.hlp_lft ul {
+    font-size: 16px;
+    color: #888888;
+    margin-right: 16px;
+}
+
+.hlp_lft ul li {
+    padding: 10px 0;
+}
+
+.hlp_rgt{
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.SubTitle {
+    font-size: 40px;
+    color: #032342;
+    margin: 8px 0 18px;
+}
+
+.hlp_rgt p{
+    font-size: 18px;
+    padding-right: 50px;
+    /* margin-bottom: 0px; */
+    color: #888888;
+}
+
+.formOuter {
+    background-color: #fff;
+    border-radius: 30px;
+    /* padding: 20px; */
+}
+
+.formInput {
+    width: 46%;
+    padding: 18px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+    font-size: 18px;
+
+    background-color: #e6e9ef;
+}
+
+.formTextArea {
+    display: block;
+    width: 96%;
+    padding: 20px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+    font-size: 20px;
+
+    background-color: #e6e9ef;
+}
+
+.submitBtn {
+    padding: 15px 40px;
+    border-radius: 15px;
+    margin: 20px 20px;
+    font-size: 18px;
+
+    background-color: #385182;
+    color: white;
+    font-weight: 600;
+}
+
+.hlp_submit_btn {
+    text-align: center;
+    color: #FFF;
+    border: 1px solid #FFF;
+    background: #6285ca;
+    border-radius: 12px;
+    width: 46%;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.hlp_submit_btn:hover {
+    background: #385182;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .hlp_submit_btn {
+        margin: 0 15px 0 0;
+        padding: 8px 20px;
+    }
+}

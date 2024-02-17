@@ -1,0 +1,65 @@
+#footer {
+    background-color: #032342;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.f_left {
+    padding-right: 90px;
+}
+
+.f_left h4 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.f_left p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.f_s_media {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.mid_footer {
+    padding-right: 90px;
+}
+
+.footSubTitle {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.phone i,
+.location i {
+    color: #385182;
+    background-color: #fff;
+    padding: 10px 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.mid_footer a {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px 10px 0;
+    font-size: 16px;
+}
+
+.m_services li,
+.q_services li {
+    font-size: 17px;
+    margin-bottom: 14px;
+}
+
+.bottom_line {
+    border: 1px solid white;
+    margin: 40px 0;
+}
+
+.cpy_rght {
+    text-align: center;
+    font-size: 20px;
+}

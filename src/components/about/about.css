@@ -1,0 +1,49 @@
+.about_title{
+    color: #6285ca;
+}
+
+.about_headline {
+    font-size: 48px;
+    color: #032342;
+}
+
+#about p {
+    font-size: 20px;
+    color: #888888;
+}
+
+.mk_apmt_btn {
+    border: 1px solid #FFF;
+    color: #FFF;
+    background: #6285ca;
+    border-radius: 12px;
+    padding: 8px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.mk_apmt_btn:hover {
+    background: #385182;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .mk_apmt_btn {
+        margin: 0 15px 0 0;
+        padding: 8px 20px;
+    }
+}
+
+.happy_clnt{
+    position: absolute;
+    background-color: #fff;
+    width: 200px;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+.hpy_clnt{
+    margin-left: -16px;
+}

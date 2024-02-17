@@ -1,0 +1,33 @@
+#testimonial{
+    background-color: #f5f6f9;
+}
+.t_title span{
+    color: #6285ca;
+}
+.t_title h3{
+    font-size: 40px;
+    color: #032342;
+    margin: 8px 0 50px;
+}
+.t_title h3 span{
+    color: #385182;
+}
+.t_content .img_1{
+    width: 150px;
+}
+.t_content h4{
+    color: #032342;
+    margin: 25px 0 4px;
+}
+.t_content .img_2{
+    width: 150px;
+    margin: 20px 0;
+}
+.t_content .pera_1 {
+    font-size: 18px;
+    color: #888888;
+}
+.t_content .pera_2 {
+    font-size: 20px;
+    color: #888888;
+}
